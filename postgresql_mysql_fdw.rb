@@ -6,7 +6,7 @@ class PostgresqlMysqlFdw < Formula
   url 'https://github.com/dpage/mysql_fdw/archive/4c48adf0f9770722484c8b8dc4d7699d87044c09.tar.gz'
   sha256 '01e2fb8e94d55e983d43e21bfe5ba3d9119e6ef841855ce43e6410e007de8d10'
 
-  depends_on :mysql
+  depends_on 'mysql'
   depends_on 'postgresql'
   depends_on 'cmake' => :build
 
